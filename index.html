@@ -1,0 +1,26 @@
+<html ng-app="myapp">
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <style>
+        </style>
+    </head>
+    <body ng-controller="homeController">
+        <div class="">
+          <a href="#/">Home</a>   |  <a href="#/about-us">About Us</a> | <a href="#news">News</a>
+            <br></br>
+            <ng-view></ng-view>
+        </div>
+        
+    </body>
+</html>
+
+<script src="scripts/js/angular.js"></script>
+<script src="scripts/js/angular-route.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controller/homeController.js"></script>
+<script src="scripts/controller/aboutUsController.js"></script>
+<script src="scripts/controller/newsController.js"></script>
+<script type="text/javascript">
+
+</script>

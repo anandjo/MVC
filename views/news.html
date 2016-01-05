@@ -1,0 +1,14 @@
+<h1>News Page</h1>
+<span class="format-news">{{ result3 }}</span><br></br>
+<table cellspacing="2" cellpadding="2" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Auther</th>
+        </tr>
+        <tr ng-repeat="n in list">
+                <td>{{ n.id }}</td>
+                <td>{{ n.title }}</td>
+                <td>{{ n.auther }}</td>
+        </tr>
+</table>
